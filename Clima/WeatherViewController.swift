@@ -104,7 +104,7 @@ class WeatherViewController: UIViewController, CLLocationManagerDelegate, Change
     
     func updateUIWithWeatherData(){
         cityLabel.text = weatherDataModel.city
-        temperatureLabel.text = "\(weatherDataModel.temperature)°C"
+        temperatureLabel.text = "\(weatherDataModel.temperature)°"
         weatherIcon.image = UIImage(named: weatherDataModel.weatherIconName)
         
     }
